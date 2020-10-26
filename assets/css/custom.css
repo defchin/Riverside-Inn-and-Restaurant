@@ -1,0 +1,176 @@
+/* Info
+
+*/
+
+/* Color references
+
+*/
+
+/* ================== General ======================= */
+
+body {
+    font-family: 'Raleway', Helvetica, sans-serif;
+    font-size: 16px;
+    background: url('../img/tile.jpg') top left repeat;
+    position: relative;
+}
+
+/* ================= Global ======================= */
+
+h1, h2, h3, h4, h5, h6, p {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-weight: bold;
+}
+
+p .lead {
+    font-weight: normal;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* ================ Layout ===================== */
+
+.row + .row {
+    margin-top: 20px;    
+}
+
+section {
+    padding: 60px 0;
+}
+
+section.section_header {
+    padding: 10px 0;
+}
+
+section .main-content {
+    padding: 40px 0;
+}
+
+/* ================ Pre-Header ==================== */
+
+#pre-header {
+    text-align: center;
+}
+
+#navbar {
+    background: white;
+    padding: 0px 0;
+}
+
+.navbar-center {
+    width: 422px;
+    margin: auto;
+    float: none;
+}
+
+.top-nav {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.subtext {
+    border-top: 1px solid rgb(36, 18, 87);
+}
+
+/* ================ Hero ===================== */
+
+#hero {
+    background-image: url("../img/riverside_inn.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    padding: 0px 0;
+}
+
+/* =============== Specialty ================ */
+
+#specials {
+    background: white;
+    text-align: center;
+}
+
+.specials-divider {
+    border-top: 1px solid rgb(36, 18, 87); 
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+/* =============== Contact ================= */
+
+
+
+/* ======================= Footer =========== */
+
+#footer {
+    background: white;;
+    text-align: center;
+    color: #777;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    
+}
+
+.address-footer {
+    background: white;
+    padding: 5% 0;
+    font-size: 12px;
+}
+
+footer li{
+    display: inline-block;
+}
+
+.navbar-footer {
+    font-size: 18px;
+    margin-left: 0px; 
+    bottom: 0;
+    width: 100%;    
+}
+
+.navbar-footer li {
+    padding: 0px 15px;  
+}
+
+.footer-signature {
+    margin-right: 50px;
+}
+
+.navbar-footer a:any-link {
+    color: rgb(71, 68, 68);
+}
+
+/* ==================== Modal ================ */
+
+.modal-content {
+    background-color: rgb(221, 220, 220);
+    color: rgb(59, 58, 58);
+    border-top: 20px solid rgb(7, 104, 7);
+    border-bottom: 20px solid rgb(7, 104, 7);
+}
+
+.modal-header {
+    border-bottom: solid rgb(7, 104, 7);
+}
+
+.mymodal-container {
+    padding: 30px;
+}
+
+.modal-close {
+    border: none;
+    color: black;
+    text-align: center;  
+    font-size: 40px;
+    opacity: 1;
+    float: none;
+  }
